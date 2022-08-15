@@ -403,6 +403,14 @@ what code does compiler generates when you use ```await``` keyword?
 what is the purpose of ```ConfigureAwait(false)``` method in ```Task``` class?
 
 what is the difference between ```Task.WaitAll()``` and ```Task.WhenAll()``` ?
+
+##CLR
+
+what is CLR? what benefits does it have?
+
+Do you need NET for compiling C# code?
+
+how can you load a DLL written in C++ and use its methods in C# ?
 ##
 # ASP NET Core
 
