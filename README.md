@@ -438,6 +438,28 @@ Why the Domain should have no dependencies and be isolated?
 
 Why DDD suggests that you don't use generic repository?
 
-What is the specification pattern?## 
+What is the specification pattern?
+## 
 # Microservice
 
+What are the benefits of Microservice Architecture?
+
+What Are the types of comminucations in Microservices?
+
+What does High Cohesion means in Microservices?
+
+What is the benefit of Health Checks API in ASP NET Core?
+
+How can you manage to handle client applications when you have multiple services ?
+
+Imagine a service is not responding, from logs we checked that it has restarted and takes time to comes up. How can you prevent other services from bombing this service with requests while it is loading?
+
+How can you manage logs and trace a request in microservice Architecture?
+
+What are the advantages and disadvantages of ```grpc``` ?
+
+What is Saga pattern? What is the usage of it?
+
+What is the Actor Model?
+
+Have you used application runtime managements like Dapr?
