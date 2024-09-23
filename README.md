@@ -1,10 +1,5 @@
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
-# Interview Questions
-
-Interview questions for AMR technical recruitment
-
-
-## 
 # Algorithms
 
 ## Sorted List vs Sorted Dictionary
@@ -258,12 +253,12 @@ Also in .NET objects do not change type as they are constructed, but start out a
 When you combine these two facts you are left with the problem that if you make a virtual method call in a constructor, and it is not the most derived type in its inheritance hierarchy, that it will be called on a class whose constructor has not been run, and therefore may not be in a suitable state to have that method called.
 ##
 # Design Patterns
-## Design Patterns-Question 1
-Which Design Patterns Have you Used Frequently? Describe Them
-## Design Patterns- Question 2
+## Design Patterns- Question 1
 
 Describe Dependency Inversion Principal
-## Design Pattern- Question 3
+
+
+## Design Pattern- Question 2
 Given the code below. What seems to be the problem?
 
 ```csharp
@@ -285,7 +280,7 @@ public class EmployeeDetails
     }
 }
 ```
-## Design Patterns-Question 3-Answer
+## Design Patterns-Question 2-Answer
 
 It violates dependency inversion principle. We Can modify the code like below
 
@@ -319,7 +314,7 @@ public class EmployeeDetailsModified
     }
 }
 ```
-## Design Patterns- Question 4
+## Design Patterns- Question 3
 
 What is the problem of the code below? refactor it to a better one
 
@@ -348,7 +343,7 @@ public class Deposit
     }
 }
 ```
-## Design Patterns- Question 4- Answer
+## Design Patterns- Question 3- Answer
 
 Calling an async operation and waiting it in constructor is a bad idea. We can use factory method to modify the code like below
 
